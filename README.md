@@ -11,7 +11,7 @@ This is a personal blog to see blogs that I post.
 ## Deployment 
 https://tjbush-123.github.io/personal-blog
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 ## License
 MIT License
