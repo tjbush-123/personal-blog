@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog Form</title>
+    <link rel="stylesheet" href="./assets/css/form.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
-    
+    <header>
+        <button class="toggle-Button">🌕</button>
+    </header>
+
+    <main>
+        <aside>
+            <img src="images/blog-header.png" alt="blog-header">
+        </aside>
+
+        <section>
+            <h1>What's on your mind?</h1>
+            <form>
+                <label for="messageUsername">Username:</label>
+                <input name="username" id="messageUsername" type="text" />
+
+                <label for="messageTitle">Title:</label>
+                <input name="title" id="messageTitle" type="text" />
+
+                <label for="messageContent">Content:</label>
+                <textarea name="content" id="messageContent" type="text" rows="4"></textarea>
+
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
+    </main>
+
+    <section>
+        <div class="horizontal-line"></div>
+    </section>
+    <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/form.js"></script>
 </body>
+
 </html>
