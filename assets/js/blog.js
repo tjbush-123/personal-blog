@@ -9,13 +9,6 @@ const instantiateList = function () {
       const articleEl = document.createElement("article");
       articleEl.classList.add("card");
 
-      const image = document.createElement("img");
-
-      image.classList.add("card-image");
-      image.setAttribute("src", "./Assets/images/blue-icon.jpg");
-      image.setAttribute("alt", "a blue letter J icon");
-      articleEl.appendChild(image);
-
       const contentDiv = document.createElement("div");
       contentDiv.classList.add("card-content");
 
@@ -44,5 +37,5 @@ const instantiateList = function () {
 document.addEventListener("DOMContentLoaded", instantiateList);
 
 backButton.addEventListener("click", () => {
-  window.location.href = "./index.html";
+  window.location.href = "index.html";
 });

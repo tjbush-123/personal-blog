@@ -1,12 +1,12 @@
 const formEl = document.querySelector("form");
 
 const changePage = function () {
-  window.location.href = "./blog.html";
+  window.location.href = "blog.html";
 }
 
 const dataToLocalStorage = function(data) {
   console.log("1");
-  const blogData = dataToLocalStorage();
+  const blogData = dataFromLocalStorage();
 
   blogData.push(data);
   const stringFromData = JSON.stringify(blogData);

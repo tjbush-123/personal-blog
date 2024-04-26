@@ -1,0 +1,82 @@
+header {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid
+}
+
+.toggle-button, .back-button {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    align-content: start;
+    flex-grow: 1;
+}
+
+.card {
+    display: flex;
+    border: 2px solid
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-image {
+    flex-shrink: 0;
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.card-content {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+}
+
+.card h2, .card-by {
+    margin: 2px 5px 2px 0;
+    display: inline;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.card-by {
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+
+footer {
+    position: fixed;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    bottom: 0;
+
+    border-top: 2px solid
+}
+
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
